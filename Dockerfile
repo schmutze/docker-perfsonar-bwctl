@@ -17,8 +17,6 @@ RUN ntpd -gq
 # expose required ports for bwctl
 EXPOSE 4823/tcp
 
-EXPOSE 5001-5900/tcp
-EXPOSE 5001-5900/udp
+EXPOSE 5001-5900/tcp 5001-5900/udp
 
-EXPOSE 6001-6200/tcp
-EXPOSE 6001-6200/udp
+EXPOSE 6001-6200/tcp 6001-6200/udp
